@@ -6,20 +6,20 @@ There are two suggested options for installation:
 
 ### Link the script from your `PATH`
 
-- Clone this repository somewhere in your environment;
-- Create a soft link from a directory inside your `PATH` to `run-ios.bin.py`;
+- Clone this repository somewhere in your environment
+- Create a soft link from a directory inside your `PATH` to `run-ios/bin.py`
 
 ### Add this repository as a submodule to your project
 
-- Create a `scripts` or `bin` directory inside your project;
-- Add this repository as a submodule inside the directory you just created;
-- Create a soft link to `run-ios/bin.py`;
+- Create a `scripts` or `bin` directory inside your project
+- Add this repository as a submodule inside the directory you just created
+- Create a soft link to `run-ios/bin.py`
 
 These are just suggestions and admitedly horrible ones, but a canoninal installation method is in the works.
 
 ## Usage
 
-Just run `bin.py --simulator <simulator_name>` from the same level as your `package.json` since the script depends on `react-native run-ios`.  `<simulator_name>` is a string formatted as `<device_name> (<os_version>)` (e. g. "iPad Pro (10.5 inch) (11.0)").
+Just run `bin.py --simulator <simulator_name>` from the same level as your `package.json` since the script depends on `react-native run-ios`.  `<simulator_name>` is a string formatted as `<device_name> (<os_version>)` e. g. "iPad Pro (10.5 inch) (11.0)".
 
 ## Contributing
 
